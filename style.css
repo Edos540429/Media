@@ -17,15 +17,23 @@
 }
 
 .header_inner {
-    margin-top: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.header_img {
+    margin-top: 15px;
+}
+
+.header_nav {
+    margin-top: 20px;
+}
+
 .nav_links {
     font-weight: 400;
     font-size: 15px;
+    margin-top: 20px;
     line-height: 16px;
     text-decoration: none;
     color: #444444;
