@@ -45,7 +45,7 @@
     display: none;
 }
 
-@media (max-width:620px) {
+@media (max-width:650px) {
     .header_nav {
         display: none;
     }
@@ -127,4 +127,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width:620px) {
+    .intro_title {
+        font-size: 25px;
+    }
+    .intro {
+        height: 500px;
+    }
 }
