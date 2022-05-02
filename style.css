@@ -1,0 +1,41 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+
+.header {
+    padding: 15px 0px;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header_nav {
+    margin-bottom: 15px;
+}
+
+.nav_link {
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #444444;
+    margin: 0 30px;
+    font-family: 'Poppins', sans-serif;
+}
