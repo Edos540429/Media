@@ -11,6 +11,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins';
 }
 
 
@@ -38,7 +39,6 @@
     text-decoration: none;
     color: #444444;
     margin: 0 30px;
-    font-family: 'Poppins', sans-serif;
 }
 
 .hamburger_menu {
@@ -104,7 +104,6 @@
 }
 
 .intro_title {
-    font-family: 'Poppins';
     font-weight: 400;
     font-size: 32px;
     line-height: 45px;
@@ -142,7 +141,6 @@
 /* About */
 
 .about_title {
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -150,59 +148,50 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FF8A63;
-    margin-top: 160px;
+}
+
+.about_inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+    align-items: center;
 }
 
 .about_suptitle {
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
-    line-height: 53px;
     color: #45525B;
     max-width: 490px;
-    margin-top: -5px;
+    line-height: 1.1;
 }
 
 .client_title {
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 1.3;
     color: #333333;
     max-width: 490px;
-    position: absolute;
-    left: 50%;
-}
-
-.about_client {
-    margin-top: -220px;
 }
 
 .client_suptitle {
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 1.3;
     color: #333333;
     max-width: 490px;
-    position: absolute;
-    left: 50%;
-    margin-top: 135px;
+    margin-top: 8px;
 }
 
 .client_img {
-    position: absolute;
-    left: 50%;
-    margin-top: 220px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .client_name {
-    margin-left: 90px;
-    margin-top: -70px;
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -210,9 +199,11 @@
     color: #45525B;
 }
 
+.client_text {
+    margin-left: 8px;
+}
+
 .client_supname {
-    margin-left: 90px;
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -220,4 +211,27 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #6F7278;
+}
+
+@media (max-width:850px) {
+    .about_inner {
+        flex-direction: column;
+    }
+    .client_title,
+    .client_suptitle,
+    .about_suptitle {
+        max-width: 100%;
+    }
+    .about_suptitle {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:540px) {
+    .about_suptitle {
+        font-size: 30px;
+    }
+    .about_inner {
+        padding: 50px 0px;
+    }
 }
