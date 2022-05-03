@@ -11,6 +11,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins';
 }
 
 
@@ -38,7 +39,6 @@
     text-decoration: none;
     color: #444444;
     margin: 0 30px;
-    font-family: 'Poppins', sans-serif;
 }
 
 .hamburger_menu {
@@ -104,7 +104,6 @@
 }
 
 .intro_title {
-    font-family: 'Poppins';
     font-weight: 400;
     font-size: 32px;
     line-height: 45px;
@@ -135,5 +134,104 @@
     }
     .intro {
         height: 500px;
+    }
+}
+
+
+/* About */
+
+.about_title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF8A63;
+}
+
+.about_inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+    align-items: center;
+}
+
+.about_suptitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #45525B;
+    max-width: 490px;
+    line-height: 1.1;
+}
+
+.client_title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #333333;
+    max-width: 490px;
+}
+
+.client_suptitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #333333;
+    max-width: 490px;
+    margin-top: 8px;
+}
+
+.client_img {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.client_name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #45525B;
+}
+
+.client_text {
+    margin-left: 8px;
+}
+
+.client_supname {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6F7278;
+}
+
+@media (max-width:850px) {
+    .about_inner {
+        flex-direction: column;
+    }
+    .client_title,
+    .client_suptitle,
+    .about_suptitle {
+        max-width: 100%;
+    }
+    .about_suptitle {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:540px) {
+    .about_suptitle {
+        font-size: 30px;
+    }
+    .about_inner {
+        padding: 50px 0px;
     }
 }
