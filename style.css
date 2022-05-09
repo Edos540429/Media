@@ -577,6 +577,10 @@
     border: none;
     background-color: transparent;
     margin-top: 19px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #45525B;
 }
 
 .tm_cards {
