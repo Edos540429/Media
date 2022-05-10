@@ -553,6 +553,7 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FF8A63;
+    margin-left: 12px;
 }
 
 .team_suptitle {
@@ -561,6 +562,7 @@
     line-height: 43px;
     color: #45525B;
     max-width: 310px;
+    margin-left: 12px;
 }
 
 .team_text {
@@ -570,6 +572,7 @@
     color: #6F7278;
     margin-top: 11px;
     max-width: 370px;
+    margin-left: 12px;
 }
 
 .tm_btn {
@@ -581,6 +584,7 @@
     font-size: 15px;
     line-height: 21px;
     color: #45525B;
+    margin-left: 12px;
 }
 
 .tm_cards {
@@ -620,4 +624,101 @@
     display: flex;
     max-width: 740px;
     width: 100%;
+}
+
+
+/* newsroom */
+
+.newsroom {
+    margin-top: 210px;
+}
+
+.room_title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF8A63;
+}
+
+.room_sup {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #45525B;
+}
+
+.room_img {
+    margin-top: 20px;
+}
+
+.room_title_img {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF8A63;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.room_sup_img {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #45525B;
+    margin-left: 30px;
+    max-width: 310px;
+    margin-top: 8px;
+}
+
+.room_images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.room_date {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #6F7278;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.room_date_one {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #6F7278;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.rooms_btn {
+    display: flex;
+    border: none;
+    background-color: transparent;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.room_btn {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #45525B;
+}
+
+.rooms_btn {
+    display: flex;
+    border: none;
+    background-color: transparent;
+    align-items: center;
 }
