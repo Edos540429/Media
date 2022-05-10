@@ -748,8 +748,7 @@
 }
 
 .test_card {
-    margin-top: 60px;
-    margin-left: 20px;
+    margin: 0 20px;
     background: #FFFFFF;
     border: 1px solid rgba(82, 80, 59, 0.1);
 }
@@ -761,7 +760,9 @@
 
 .test_cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: -15px;
 }
 
 .test_text {
@@ -776,6 +777,16 @@
 .text_sup_text {
     margin-top: 10px;
     max-width: 515px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #333333;
+    margin-left: 30px;
+}
+
+.text_sup_text_two {
+    margin-top: 10px;
+    max-width: 505px;
     font-weight: 400;
     font-size: 15px;
     line-height: 22px;
