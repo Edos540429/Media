@@ -868,3 +868,140 @@
         margin: 20px 0px;
     }
 }
+
+
+/* background */
+
+.background {
+    background-color: #45525B;
+    margin-top: 190px;
+    background-size: cover;
+    height: 400px;
+}
+
+.bg_title {
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FAFAFC;
+}
+
+.bg_sup {
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+.bg_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FAFAFC;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.bg_buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #45525B;
+    background: #FFFFFF;
+    border-radius: 6px;
+    height: 44px;
+    max-width: 100px;
+    display: flex;
+    align-items: center;
+    padding: 18px 10px;
+    margin: 0 20px;
+}
+
+.contact_list {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #45525B;
+    background: #FFFFFF;
+    border-radius: 6px;
+    height: 44px;
+    max-width: 120px;
+    display: flex;
+    align-items: center;
+    padding: 18px 10px;
+    margin: 0 20px;
+}
+
+
+/* footer */
+
+.foot {
+    background-color: #292C32;
+    background-size: cover;
+    height: 560px;
+}
+
+.foot_inner {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_pages {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    margin: 0 50px;
+    color: #FF8A63;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.pages_text {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-transform: none;
+}
+
+.input {
+    margin-top: 10px;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    height: 50px;
+    text-align: left;
+    padding: 15px;
+}
+
+.btn_foot {
+    background: #292C32;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 8px;
+    margin-left: -100px;
+    cursor: pointer;
+}
